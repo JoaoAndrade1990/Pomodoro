@@ -1,14 +1,16 @@
+import { Container } from "./components/Container/Container.tsx";
+import { Heading } from "./components/Heading/Heading.tsx";
+import { Logo } from "./components/Logo/Logo.tsx";
+
 import "./styles/theme.css"
 import "./styles/global.css"
-import { Container } from './components/Container';
-import { Heading } from "./components/Heading.tsx";
 
 export function App() {
     return (
     <>
         
         <Container>
-            <Heading>LOGO</Heading>
+            <Logo></Logo>
         </Container>
 
         <Container>
