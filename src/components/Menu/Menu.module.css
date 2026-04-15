@@ -1,0 +1,15 @@
+.menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    color: var(--text-over-primay);
+}
+
+.menuLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    
+}
