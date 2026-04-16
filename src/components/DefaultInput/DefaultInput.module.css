@@ -6,12 +6,11 @@
     padding: .8rem;
     border-radius: .8rem;
     color: var(--text-default);
-
-    border: .2rem solid var(--primary);
+    outline: none;    
 }
 
 .input:focus {
-    
+    border: .2rem solid var(--primary);
 }
 
 .input::placeholder {
