@@ -1,5 +1,4 @@
 import { Container } from "./components/Container/Container.tsx";
-import { Heading } from "./components/Heading/Heading.tsx";
 import { Logo } from "./components/Logo/Logo.tsx";
 import { Menu } from "./components/Menu/Menu.tsx"
 import { CountDown } from "./components/CountDown/CountDown.tsx"
@@ -7,6 +6,7 @@ import { DefaultInput } from './components/DefaultInput/DefaultInput';
 
 import "./styles/theme.css"
 import "./styles/global.css"
+import { Cycles } from "./components/Cycles/Cycles.tsx";
 
 
 export function App() {
@@ -32,7 +32,8 @@ export function App() {
                     id="meuInput" 
                     type="text"
                     title="titulo"
-                    placeholder="Digite aqui"/>
+                    placeholder="Digite aqui"
+                    />
                 </div>
 
                 <div className="formRow">
@@ -40,8 +41,7 @@ export function App() {
                 </div>
 
                 <div className="formRow">
-                    <p>Ciclos</p>
-                    <p>0 0 0 0 0 0</p>
+                    <Cycles></Cycles>
                 </div>
 
                 <div className="formRow">

@@ -1,0 +1,11 @@
+import styles from "./Cycles.module.css"
+
+export function Cycles () {
+    return <div className={styles.cycles}>
+        <span>Ciclos:</span>
+
+        <div className={styles.cycleDots}>
+            <span className={styles.cycleDot}></span>
+        </div>
+    </div>
+}
